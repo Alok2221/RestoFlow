@@ -1,0 +1,50 @@
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.classpath
+.project
+.settings/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Application - wrażliwe (hasła, klucze, lokalne overridy)
+application-local.properties
+application-secret.properties
+application-*-local.properties
+*.env
+.env
+.env.local
+.env.*.local
+
+# Baza H2
+*.mv.db
+*.trace.db
+
+# Inne wrażliwe (certyfikaty, klucze)
+*.pem
+*.jks
+*.key
+*.p12
